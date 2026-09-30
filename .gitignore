@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Training outputs
+runs/
+
+# ==========================================
+# PRIVATE / SENSITIVE DATA
+# ==========================================
+
+# Do not commit anything inside data/
+data/
+
+# Common image formats anywhere in repository
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.heic
+
+# OS files
+.DS_Store
+Thumbs.db
